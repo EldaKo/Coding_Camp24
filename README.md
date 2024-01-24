@@ -1,1 +1,1 @@
-# coding-camp24
+# Coding Camp 2024 💻
