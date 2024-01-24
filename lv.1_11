@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include < string.h>
+
+int main() {
+	char s1[] = "hansung univ";
+
+	for (int i = 0; i < sizeof(s1); i++) {
+		if (s1[i] == ' '){
+			continue;
+		}
+		printf("%c", s1[i]);
+	}
+}
